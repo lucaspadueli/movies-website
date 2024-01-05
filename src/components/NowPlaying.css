@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 85vh;
+    height: 75vh;
     overflow: scroll;
     padding: 0;
     padding-top: 2vh;
     margin-top: 1vh;
+   
     
 }
 .movies-container{
@@ -16,7 +17,8 @@
     background-color: antiquewhite;
     padding-top: 2vh;
     border:1px solid black;
-    width: 98%;
+    width: 85%;
+    border-radius: 15px;
 }
 
 .movies-container p{
@@ -35,4 +37,5 @@ h3{
     font-weight: 200;
     text-align: center;
     padding-top: 2vh;
+    margin-bottom: 2vh;
 }

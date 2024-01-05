@@ -1,0 +1,47 @@
+h4{
+    font-weight: 300;
+    color: beige;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5vh;
+}
+
+.list-container{
+    background-color: black;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4vh;
+    border-radius: 15px;
+    height: 40vh;
+    line-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.genre-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    height: fit-content;
+    justify-content: center;
+    padding-top: 1vh;
+     padding-left: 0;
+     width: 90%;
+     
+}
+
+.genre-list li{
+    width: 100%;
+    margin-bottom: 1vh;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+
+.genre-list li a{
+    text-decoration: none;
+    
+}

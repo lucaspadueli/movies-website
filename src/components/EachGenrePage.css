@@ -1,0 +1,60 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.each-genre-list{
+    display: flex;
+    margin-top: 4vh;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.each-genre-list li{
+background-color: rgb(52, 100, 230);
+border: 1px solid rgb(0, 0, 0);
+box-shadow: 0px 5px 14px 3px rgba(0,0,0,0.90);
+border-radius: 15px;
+width: 40vw;
+height: 7vh;
+padding: 2vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.each-genre-list li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.horror-top-list{
+    padding: 0;
+    margin-top: 5vh;
+    
+}
+
+.card-img-top{
+    width: 60vw;
+    padding-top: 3vh;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 1vh;
+}
+
+.card-text{
+    padding-bottom: 2vh;
+    text-align:justify;
+    padding-top: 2vh;
+}
+
+.top-rated-horror-page{
+    animation: fadeIn 2s;
+}

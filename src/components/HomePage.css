@@ -7,3 +7,11 @@ h1{
 hr{
     color: aliceblue;
 }
+
+#search-genres{
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 4vh;
+}
