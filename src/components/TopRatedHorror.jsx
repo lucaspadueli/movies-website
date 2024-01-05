@@ -42,6 +42,8 @@ const [topHorror,setTopHorror] = useState([]);
                             <div className="card-body">
                             <h5 className="card-title">{movie.original_title}</h5>
                             <p className="card-text">{movie.overview}</p>
+                            <hr/>
+                            <p className="card-text"> TMDB vote average: {movie.vote_average}</p>
                             </div>
                             
                             </div>

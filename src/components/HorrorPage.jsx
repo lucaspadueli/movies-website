@@ -26,13 +26,17 @@ const HorrorPage = () => {
 
     return (
         <div className="each-genre-page">
-            
+            <button className="back-btn">
+             <a href="/movie-genres">
+                Back
+             </a> 
+             </button>
             <ul className="each-genre-list">
-                <li><button href="#" onClick={() => setSelectedButton("top-rated")}>Top Rated</button></li>
-                <li><button href="#" onClick={() => setSelectedButton("most-popular")}>Most Popular</button></li>
+                <li><button className="btn-movie-genre-page" href="#" onClick={() => setSelectedButton("top-rated")}>Top Rated</button></li>
+                <li><button className="btn-movie-genre-page" href="#" onClick={() => setSelectedButton("most-popular")}>Most Popular</button></li>
             </ul>
             {selectedButton === "top-rated" && <TopRatedHorror genreId={genreId} />}
-            {selectedButton === "most-popular" && <MostPopularHorror />}
+            {selectedButton === "most-popular" && <MostPopularHorror genreId={genreId} />}
         </div>
     );
 };

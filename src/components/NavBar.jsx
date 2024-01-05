@@ -4,7 +4,7 @@ const NavBar = () => {
     return(
       <nav class="navbar bg-transparent border-bottom navbar-expand-lg text-white" >
       <div class="container">
-      <p> Movies WebSite</p>
+      <a id ="a-nav-bar" href = "/"> Movies WebSite</a>
         <a class="navbar-brand fs-4" href="/"> </a>
         <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -20,10 +20,10 @@ const NavBar = () => {
                 <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="/videos">Tv Shows</a>
+                <a class="nav-link" href="/tv-shows">Tv Shows</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="/contatos">Contatos</a>
+                <a class="nav-link" href="/movie-genres">Movie Genres</a>
               </li>
               
             </ul>
