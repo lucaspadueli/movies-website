@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nothing+You+Could+Do&display=swap');
+
 .now-playing-list{
     display: flex;
     flex-direction: column;
@@ -7,8 +9,13 @@
     padding: 0;
     padding-top: 2vh;
     margin-top: 1vh;
-   
-    
+}
+.now-playing-home{
+    color: #BF2EC0;
+    font-weight:900;
+    font-size: 1.8em;
+    text-shadow: -4px 7px 3px rgba(191,46,192,0.77);
+    font-family: 'Nothing You Could Do', cursive;
 }
 .movies-container{
     display: flex;
@@ -22,6 +29,7 @@
 }
 
 .movies-container p{
+    color: #BF2EC0;
    font-size: 0.8em;
    width: 80%;
    text-align: center;

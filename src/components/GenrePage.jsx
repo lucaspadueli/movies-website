@@ -27,7 +27,7 @@ useEffect(()=>{
 
   return (
     <div className="genre-page">
-      <h4>Choose the genre and we'll show you the best movies!</h4>
+      <h4>Choose the genre and we`ll show you the best movies!</h4>
       <ul> 
       {!genres.length ? (<div>Loading... </div>) : (
         genres.filter(genre=> genre.id == 28 || genre.id == 35 || genre.id == 27 || genre.id == 878 || genre.id == 10749 )

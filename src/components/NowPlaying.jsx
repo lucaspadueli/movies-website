@@ -25,7 +25,7 @@ useEffect(()=>{
 },[])
 return(
     <div className="now-playing">
-        <h3>
+        <h3 className="now-playing-home">
             Now playing:
         </h3>
         <div>
