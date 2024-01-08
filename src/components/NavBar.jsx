@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const NavBar = () => {
     return(
-      <nav className="navbar bg-transparent border-bottom navbar-expand-lg text-white" >
+      <nav className="navbar bg-dark border-bottom border-body navbar-expand-lg" data-bs-theme="dark" >
       <div className="container">
       <a id ="a-nav-bar" href = "/"> Movies WebSite</a>
         <a className="navbar-brand fs-4" href="/"> </a>

@@ -3,8 +3,8 @@ import "./HomePage.css";
 const HomePage = () => {
     return(
         <div>   
-            <h1> Find out everything about movies!</h1>
-            <hr/>
+            <h1 id = "h1-home"> Everything about movies</h1>
+          
             <NowPlaying/>
             <p id = "search-genres"> Click <span> <a href="/movie-genres">here</a> </span> to search for genres</p>
         </div>

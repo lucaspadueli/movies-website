@@ -29,7 +29,7 @@ const [topHorror,setTopHorror] = useState([]);
     },[genreId]);
     return(
         <div className="top-rated-horror-page">
-            <h1> Top Rated </h1>
+            <h1 className='h1-genre-container'> Top Rated </h1>
             <ul className="horror-top-list">
                 {!topHorror.length ? (<div>
                     Loading...

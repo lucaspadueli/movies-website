@@ -28,6 +28,7 @@ return(
         <h3 className="now-playing-home">
             Now playing:
         </h3>
+        <hr/>
         <div>
             <ul className="now-playing-list">
             {!playingNow.length ? (<div>
@@ -37,8 +38,8 @@ return(
                     return(
                         <div key = {movie.id} className="movies-container">
                         <img src = {`https://image.tmdb.org/t/p/w200${movie.poster_path}`} />
-                        <p>{movie.original_title} </p>
-                        <p>{movie.overview} </p>
+                        <p id = "title">{movie.title} </p>
+                        <p id = "overview">{movie.overview} </p>
                         
 
                         </div>

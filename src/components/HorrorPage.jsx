@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import TopRatedHorror from "./TopRatedHorror";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import MostPopularHorror from "./MostPopularHorror";
 import "./EachGenrePage.css";
 
@@ -26,14 +27,14 @@ const HorrorPage = () => {
 
     return (
         <div className="each-genre-page">
-            <button className="back-btn">
-             <a href="/movie-genres">
+            <button type="button" className="btn btn-primary btn-back">
+             <a id = "btn-a-back" href="/movie-genres">
                 Back
              </a> 
              </button>
             <ul className="each-genre-list">
-                <li><button className="btn-movie-genre-page" href="#" onClick={() => setSelectedButton("top-rated")}>Top Rated</button></li>
-                <li><button className="btn-movie-genre-page" href="#" onClick={() => setSelectedButton("most-popular")}>Most Popular</button></li>
+                <li><button type="button" className="btn btn-primary" href="#" onClick={() => setSelectedButton("top-rated")}>Top Rated</button></li>
+                <li><button type="button" className="btn btn-primary" href="#" onClick={() => setSelectedButton("most-popular")}>Most Popular</button></li>
             </ul>
             {selectedButton === "top-rated" && <TopRatedHorror genreId={genreId} />}
             {selectedButton === "most-popular" && <MostPopularHorror genreId={genreId} />}

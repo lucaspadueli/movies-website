@@ -30,7 +30,7 @@ useEffect(()=>{
 
     return (
         <div className='most-popular-movies-genre'>
-        <h1> Most Popular </h1>
+        <h1 className='h1-genre-container'> Most Popular </h1>
         <ul className='most-popular-list'> 
         {!mostPopularMovies.length ? (<div> Loading</div>) : (
             mostPopularMovies.filter(movie => movie.poster_path)
