@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+
+.a-nav-bar{
+    text-decoration: none;
+    font-family: 'Bad Script', cursive;
+    font-size: 1.5em;
+}
+
+#genre-btn{
+    text-decoration: none;
+    font-family: 'Bad Script', cursive;
+    font-size: 1.5em;
+}
+
+.btn{
+    border: 0;
+}
+
+.nav-item{
+    font-family: 'Bad Script', cursive;
+}
+
+.offcanvas-title{
+    font-family: 'Bad Script', cursive;
+}

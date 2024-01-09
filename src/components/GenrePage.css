@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
 #h4-genre-page{
     width: 80%;
     margin: 0 auto;
@@ -5,7 +8,8 @@
     margin-bottom: 5vh;
     text-align: center;
     color: rgba(48, 120, 220, 0.861);
-    border-bottom: 1px solid rgba(48, 120, 220, 0.861);;
+    border-bottom: 1px solid rgba(48, 120, 220, 0.861);
+    font-family: 'Bad Script', cursive;
    }
 
    .genres-list{
@@ -15,9 +19,11 @@
 
    .genres-list li{
     margin-bottom: 2vh;
+    
    }
    .genres-list li a{
     margin-bottom: 1vh;
     font-size: 1.2em;
     text-decoration: none;
+    font-family: 'Bad Script', cursive;
    }

@@ -1,6 +1,6 @@
 import "./GenrePage.css";
 import { useState,useEffect } from "react";
-
+import NavBar from "./NavBar";
 const GenrePage = () => {
   const [genres,setGenres] = useState([]);
 useEffect(()=>{
@@ -27,6 +27,7 @@ useEffect(()=>{
 
   return (
     <div className="genre-page">
+    <NavBar hiddeItem={true}/>
       <h4 id = "h4-genre-page">Choose the genre and we`ll show you the best movies!</h4>
       <ul className="genres-list"> 
       {!genres.length ? (<div>Loading... </div>) : (

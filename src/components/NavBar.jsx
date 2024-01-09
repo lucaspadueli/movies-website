@@ -1,11 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-const NavBar = () => {
+import './NavBar.css';
+import { Link } from 'react-router-dom';
+const NavBar = ({hiddeItem}) => {
+    
     return(
       <nav className="navbar bg-dark border-bottom border-body navbar-expand-lg" data-bs-theme="dark" >
       <div className="container">
-      <a id ="a-nav-bar" href = "/"> Movies WebSite</a>
-        <a className="navbar-brand fs-4" href="/"> </a>
+      <a className ="a-nav-bar" href = "/"> Home </a>
+        {!hiddeItem && <button className="btn btn-sm btn-outline-secondary" type="button"> <Link id = "genre-btn" to = "/movie-genres">Genres </Link></button>}
         <button className="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

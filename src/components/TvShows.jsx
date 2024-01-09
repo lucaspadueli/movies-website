@@ -1,6 +1,7 @@
 import { useState,useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./TvShows.css";
+import NavBar from "./NavBar";
 const TvShows = () => {
     const[bestSeries,setBestSeries] = useState([]);
 
@@ -27,7 +28,8 @@ const TvShows = () => {
     },[])
     return(
         <div className="tv-shows-page">
-        <h1> Top Rated Tv Series </h1>
+        <NavBar/>
+        <h1 id = "h1-tv-series"> Top Rated Tv Series </h1>
         <ul className="tv-list">
         {!bestSeries.length ? (<div> Loading...</div>) : (
             bestSeries.filter(serie => serie.poster_path)

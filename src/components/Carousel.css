@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+.container{
+    width: 80%;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+#movie-overview{
+    color: aliceblue;
+    margin-top: 2vh;
+    font-family: 'Bad Script', cursive;
+    font-size: 1.2em;
+}

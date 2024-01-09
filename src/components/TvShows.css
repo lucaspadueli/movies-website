@@ -11,3 +11,8 @@
 .tv-shows-page{
     animation: fadeIn 2s;
 }
+
+#h1-tv-series{
+    margin-top: 3vh;
+   text-align: center;
+}
