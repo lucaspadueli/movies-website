@@ -33,6 +33,7 @@ useEffect(()=>{
                     return(
                         <div key = {movie.id} className= {`carousel-item ${index === 0 ? "active" : "" }`}>
                         <img src = {`https://image.tmdb.org/t/p/w500${movie.poster_path}`} className="d-block w-100" alt="movie-carousel"/>
+                        <h2 id = "title"> {movie.title }</h2>
                         <p id = "movie-overview">{movie.overview}</p>
                          </div>
                          

@@ -36,12 +36,12 @@ const TvShows = () => {
             .map((serie)=> {
                 return(
                     <div key = {serie.id} className="card">
-                    <img src = {`https://image.tmdb.org/t/p/w200${serie.poster_path}`} className="card-img-top"/>
+                    <img src = {`https://image.tmdb.org/t/p/w500${serie.poster_path}`} className="card-img-top"/>
                     <div className="card-body">
                     <h5 className="card-title"> {serie.name}</h5>
                     <p className="card-text"> {serie.overview}</p>
                     <hr/>
-                    <p> TMDB vote average: {serie.vote_average}</p>
+                    <p id = "vote-average"> TMDB vote average: {serie.vote_average}</p>
                     </div>
                     </div>
                 )

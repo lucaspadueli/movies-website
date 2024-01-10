@@ -38,7 +38,7 @@ return(
                     return(
                         <div key = {movie.id} className="movies-container">
                         <img src = {`https://image.tmdb.org/t/p/w200${movie.poster_path}`} />
-                        <p id = "title">{movie.title} </p>
+                        <p id = "title"> {movie.title} </p>
                         <p id = "overview">{movie.overview} </p>
                         
 

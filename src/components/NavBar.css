@@ -4,14 +4,15 @@
 
 .a-nav-bar{
     text-decoration: none;
-    font-family: 'Bad Script', cursive;
-    font-size: 1.5em;
+    font-family: 'Genos', sans-serif;
+    font-size: 1.2em;
+    margin-left: 4vw;
 }
 
 #genre-btn{
     text-decoration: none;
-    font-family: 'Bad Script', cursive;
-    font-size: 1.5em;
+    font-family: 'Genos', sans-serif;
+    font-size: 1.2em;
 }
 
 .btn{
@@ -19,9 +20,32 @@
 }
 
 .nav-item{
-    font-family: 'Bad Script', cursive;
+    font-family: 'Genos', sans-serif;
 }
 
 .offcanvas-title{
-    font-family: 'Bad Script', cursive;
+    font-family: 'Genos', sans-serif;
+}
+
+@media only screen and (min-width: 992px) { 
+
+.navbar-nav{
+    
+    max-width: 70vw;
+  
+   
+}
+.nav-link{
+    font-size: 1.5em;
+}
+#genre-btn{
+margin-left: 5vw;
+font-size: 2.5em;
+}
+.a-nav-bar{
+    margin-left: 10vw;
+    font-size: 2.5em;
+}
+
+
 }
