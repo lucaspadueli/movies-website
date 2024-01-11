@@ -1,3 +1,4 @@
 body{
-    background-color: #121212;
+    background-image: url("./assets//movie-background-collage.jpg");
+    background-size: contain;
 }

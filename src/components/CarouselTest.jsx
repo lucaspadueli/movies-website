@@ -26,6 +26,7 @@ useEffect(()=>{
 },[])
     return(
         <div className="container">
+        
             <div id="carouselExample" className="carousel slide">
             <div className="carousel-inner">
             {!playingNow.length ? (<div> Loading</div>) : (

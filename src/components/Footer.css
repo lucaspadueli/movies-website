@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap');
+
+.footer{
+    margin-top: 5vh;
+}
+
+.footer-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4%;
+    border-top: 1px solid #ffffff;
+}
+
+.tmdb-site{
+    list-style: none;
+    text-align: center;
+    font-family: 'Genos', sans-serif;
+    color: #ffffff;
+}
+
+.developer{
+    list-style: none;
+    text-align: center;
+    font-family: 'Genos', sans-serif;
+    color: #ffffff;
+}
+#footer-lucas{
+    text-align: center;
+    color: #ffffff;
+}

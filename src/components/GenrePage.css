@@ -1,20 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
 #h4-genre-page{
     width: 80%;
     margin: 0 auto;
     padding-top: 3vh;
     margin-bottom: 5vh;
     text-align: center;
-    color: rgba(48, 120, 220, 0.861);
+    color: rgba(255, 255, 255, 0.861);
     border-bottom: 1px solid rgba(48, 120, 220, 0.861);
     font-family: 'Genos', sans-serif;
+    animation: fadeIn 2s;
    }
 
    .genres-list{
     text-align: center;
     list-style: none;
+    animation: fadeIn 2s;
    }
 
    .genres-list li{
@@ -23,6 +31,7 @@
    }
    .genres-list li a{
     margin-bottom: 1vh;
+    color: aliceblue;
     font-size: 1.2em;
     text-decoration: none;
     font-family: 'Genos', sans-serif;
@@ -35,7 +44,7 @@
         
     }
     .genres-list li a{
-        font-size: 2.5em;
-        border-bottom: 1px solid white;
+        font-size: 2em;
+        
     }
    }

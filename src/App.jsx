@@ -4,6 +4,7 @@ import GenrePage from "./components/GenrePage"
 import HorrorPage from "./components/HorrorPage"
 import TvShows from "./components/TvShows"
 import CarouselTest from "./components/CarouselTest";
+import Footer from "./components/Footer"
 function App() {
 
 
@@ -18,7 +19,7 @@ function App() {
       <Route path = "/movie-genres/:genreId" element = {<HorrorPage/>} />
       <Route path = "/tv-shows" element = {<TvShows/>}/>
       </Routes>
-       
+       <Footer/>
       </div>
       
     

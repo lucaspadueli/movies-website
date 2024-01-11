@@ -41,7 +41,7 @@ const TvShows = () => {
                     <h5 className="card-title"> {serie.name}</h5>
                     <p className="card-text"> {serie.overview}</p>
                     <hr/>
-                    <p id = "vote-average"> TMDB vote average: {serie.vote_average}</p>
+                    <p className= "vote-average"> TMDB vote average: {serie.vote_average}</p>
                     </div>
                     </div>
                 )
