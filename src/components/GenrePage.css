@@ -1,50 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
+.genre-page {
+  height: 80vh;
+}
 
-#h4-genre-page{
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 3vh;
-    margin-bottom: 5vh;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.861);
-    border-bottom: 1px solid rgba(48, 120, 220, 0.861);
-    font-family: 'Genos', sans-serif;
-    animation: fadeIn 2s;
-   }
+#h4-genre-page {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 3vh;
+  margin-bottom: 5vh;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.861);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.861);
+  font-family: "Genos", sans-serif;
+  animation: fadeIn 2s;
+}
 
-   .genres-list{
-    text-align: center;
-    list-style: none;
-    animation: fadeIn 2s;
-   }
+.genres-list {
+  text-align: center;
+  list-style: none;
+  animation: fadeIn 2s;
+}
 
-   .genres-list li{
-    margin-bottom: 2vh;
-    
-   }
-   .genres-list li a{
-    margin-bottom: 1vh;
-    color: aliceblue;
-    font-size: 1.2em;
-    text-decoration: none;
-    font-family: 'Genos', sans-serif;
-   }
+.genres-list li {
+  margin-bottom: 2vh;
+}
+.genres-list li a {
+  margin-bottom: 1vh;
+  color: aliceblue;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-family: "Genos", sans-serif;
+}
 
-   @media only screen and (min-width: 601px) and (max-width: 1024px){
-
-    #h4-genre-page{
-        font-size: 2.5em;
-        
-    }
-    .genres-list li a{
-        font-size: 2em;
-        
-    }
-   }
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  #h4-genre-page {
+    font-size: 2.5em;
+  }
+  .genres-list li a {
+    font-size: 2em;
+  }
+}

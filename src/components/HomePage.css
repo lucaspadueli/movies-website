@@ -1,43 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap");
 
-#h1-home{
-    color: rgba(255, 255, 255, 0.861);
-    text-align: center;
-    margin: 0 auto;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.861);;
-    padding-top: 3vh;
-    width: 80%;
-    font-size: 2.5em;
-    font-family: 'Genos', sans-serif;
+#h1-home {
+  color: rgba(255, 255, 255, 0.861);
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.861);
+  padding-top: 3vh;
+  width: 80%;
+  font-size: 2.5em;
+  font-family: "Genos", sans-serif;
 }
-hr{
-    color: aliceblue;
+hr {
+  color: aliceblue;
 }
-#now-playing-text{
-    text-align: center;
-    margin-top: 2vh;
-    color: white;
-    font-size: 1.5em;
-    font-family: 'Genos', sans-serif;
+#now-playing-text {
+  text-align: center;
+  margin-top: 2vh;
+  color: white;
+  font-size: 1.5em;
+  font-family: "Genos", sans-serif;
 }
-#search-genres{
-    color: whitesmoke;
-    font-weight: 100;
-    font-size: 1.2em;
-    text-align: center;
-    margin-top: 4vh;
-}
-
-@media only screen and (min-width: 601px) and (max-width: 1024px){ 
-
-    #h1-home{
-        font-size: 2.8em;
-    }
-    
-    #now-playing-text{
-        font-size: 3em;
-    }
-
-
+#search-genres {
+  color: whitesmoke;
+  font-weight: 100;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 4vh;
 }
 
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  #h1-home {
+    font-size: 2.8em;
+  }
+
+  #now-playing-text {
+    font-size: 3em;
+  }
+}

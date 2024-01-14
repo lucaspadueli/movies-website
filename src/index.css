@@ -1,4 +1,5 @@
-body{
-    background-image: url("./assets//movie-background-collage.jpg");
-    background-size: contain;
+body {
+  background-image: url("./assets//movie-background-collage.jpg");
+  background-size: contain;
+  background-attachment: fixed;
 }

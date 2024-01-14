@@ -1,163 +1,175 @@
-@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap");
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.each-genre-page {
+  height: 100vh;
+}
+.each-genre-list {
+  display: flex;
+  margin-top: 4vh;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+  animation: fadeIn 2s;
 }
 
-.each-genre-list{
-    display: flex;
-    margin-top: 4vh;
-    list-style: none;
-    width: 100%;
-    justify-content: space-evenly;
-    animation: fadeIn 2s;
+.horror-top-list {
+  padding: 0;
+  margin-top: 5vh;
+  animation: fadeIn 4s;
+  background-color: #f9f7f796;
+  width: 90%;
+  margin: auto;
 }
 
-.horror-top-list{
-    padding: 0;
-    margin-top: 5vh;
-    animation: fadeIn 4s;
-}
-.vote-average{
-    color: white;
-}
-.card-img-top{
-    width: 60vw;
-    padding-top: 3vh;
-   
+.card-img-top {
+  width: 60vw;
+  padding-top: 3vh;
 }
 
-.card{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    width: 90vw;
+.card {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 4vh;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.card-text {
+  padding-bottom: 2vh;
+  text-align: center;
+  padding-top: 2vh;
+  color: rgb(255, 255, 255);
+  font-family: "Genos", sans-serif;
+}
+.card-text:last-child {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: underline;
+}
+.vote-averge {
+  color: aliceblue;
+}
+
+.top-rated-horror-page {
+  animation: fadeIn 2s;
+  text-align: center;
+  margin-top: 3vh;
+  background: none;
+  max-height: 70vh;
+  overflow: auto;
+}
+.most-popular-list {
+  padding: 0;
+  margin-top: 5vh;
+}
+.most-popular-movies-genre {
+  animation: fadeIn 2s;
+  text-align: center;
+  margin-top: 3vh;
+  background: none;
+}
+
+.btn-back {
+  margin-left: 5%;
+  margin-top: 3%;
+  animation: fadeIn 2s;
+}
+#btn-a-back {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-primary {
+  font-size: 0.8em;
+  border-radius: 15px;
+}
+
+.h1-genre-container {
+  font-family: "Genos", sans-serif;
+  font-size: 2em;
+  color: white;
+  text-decoration: underline;
+}
+
+.card-title {
+  width: 80%;
+  margin: auto;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .card {
+    width: 90%;
+  }
+
+  .card-text {
+    font-family: "Genos", sans-serif;
+    font-size: 1.5em;
+    width: 90%;
     margin: 0 auto;
-    margin-top: 4vh;
-    background: none;
-    border: 0;
-    border-bottom: 1px solid black;
-}
-
-.card-text{
     padding-bottom: 2vh;
-    text-align:center;
+    text-align: center;
     padding-top: 2vh;
-    color: white;
-    font-family: 'Genos', sans-serif;
+  }
+
+  .card-title {
+    color: aliceblue;
+    font-size: 2em;
+    font-family: "Genos", sans-serif;
+    text-decoration: underline;
+  }
+
+  .card-img-top {
+    width: 60%;
+  }
+
+  .h1-genre-container {
+    font-size: 2.5em;
+    text-decoration: underline;
+  }
+
+  .btn-primary {
+    font-size: 1.3em;
+    padding: 0.5vh 4vw;
+  }
 }
 
-.top-rated-horror-page{
-    animation: fadeIn 2s;
-    text-align: center;
-    margin-top: 3vh;
-    background: none;
-  
-}
-.most-popular-list{
-    padding: 0;
-    margin-top: 5vh;
-}
-.most-popular-movies-genre{
-    animation: fadeIn 2s;
-    text-align: center;
-    margin-top: 3vh;
-    background: none;
-}
+@media only screen and (min-width: 1025px) {
+  .horror-top-list {
+    width: 50%;
+    border-radius: 20px;
+  }
 
-.btn-back{
-    margin-left: 5%;
-    margin-top: 3%;
-    animation: fadeIn 2s;
-}
-#btn-a-back{
+  .card {
+    width: 50%;
+  }
+
+  .card-text {
+    font-size: 1.5em;
+  }
+
+  #btn-a-back {
     color: white;
     text-decoration: none;
-}
+  }
 
-.btn-primary{
-    font-size: 0.8em;
-    border-radius: 15px;
-}
-
-.h1-genre-container{
-    font-family: 'Genos', sans-serif;
-    font-size: 2em;
-    color: white;
-    text-decoration: underline;
-}
-
-
-
-@media only screen and (min-width: 601px) and (max-width: 1024px){ 
-
-.card{
-    width: 70%;
-
-}
-
-    .card-text{
-   
-        font-family: 'Genos', sans-serif;
-        font-size: 1.5em;
-        width: 90%;
-        margin: 0 auto;
-        padding-bottom: 2vh;
-        text-align:center;
-        padding-top: 2vh;
-    }
-
-    .card-title{
-        color: aliceblue;
-        font-size: 2em;
-        font-family: 'Genos', sans-serif;
-        text-decoration: underline;
-      
-    }
-
-    .card-img-top{
-        width: 60%;
-       
-    }
-
-    .h1-genre-container{
-        font-size: 2.5em;
-        text-decoration: underline;
-    }
-
-    .btn-primary{
-        font-size: 1em;
-    }
-}
-
-
-@media only screen and (min-width: 1024px) {
-    .card{
-        width: 40%;
-    
-    }
-
-    .card-img-top{
-        width: 70%;
-        padding-top: 3vh;
-       
-    }
-    .card-text{
-        font-size: 1.5em;
-        
-    }
-    .btn-back{
-        margin-left: 5%;
-        margin-top: 2%;
-        
-    }
-    #btn-a-back{
-        color: white;
-        text-decoration: none;
-    }
-    
-    .btn-primary{
+  .btn-primary {
+    margin-top: 0;
     font-size: 1em;
-    }
+  }
+  .btn-back {
+    margin-left: 5%;
+    margin-top: 1%;
+  }
 }

@@ -1,69 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
 
-.now-playing-list{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 75vh;
-    overflow: scroll;
-    padding: 0;
-    padding-top: 2vh;
-    margin-top: 2vh;
+.now-playing-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75vh;
+  overflow: scroll;
+  padding: 0;
+  padding-top: 2vh;
+  margin-top: 2vh;
 }
-.now-playing-home{
-    color: rgba(48, 120, 220, 0.861);
-    text-shadow: -4px 18px 7px rgba(103, 165, 220, 0.77);
-    font-family: 'Genos', sans-serif;
-    font-size: 3em;
-    text-align: center;
-    margin:0 auto;
-    margin-bottom: 3vh;
-    margin-top: 3vh;
-    width: 80%;
-   
-}
-
-hr{
-    color:rgba(255, 255, 255, 0.77);
+.now-playing-home {
+  color: rgba(48, 120, 220, 0.861);
+  text-shadow: -4px 18px 7px rgba(103, 165, 220, 0.77);
+  font-family: "Genos", sans-serif;
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  width: 80%;
 }
 
-.movies-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 3vh;
-    background: none;
-    padding-top: 2vh;
-    box-shadow: 0px 0px 18px 1px rgba(148, 96, 203, 0.47);
-    width: 85%;
-    border-radius: 15px;
+hr {
+  color: rgba(255, 255, 255, 0.77);
+}
+
+.movies-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3vh;
+  background: none;
+  padding-top: 2vh;
+  box-shadow: 0px 0px 18px 1px rgba(148, 96, 203, 0.47);
+  width: 85%;
+  border-radius: 15px;
 }
 
 #overview {
-   color: rgba(255, 255, 255, 0.77);
-   width: 80%;
-   text-align: center;
-   font-size: 1.4em;
-   margin-top: 2vh;
-   padding-bottom: 2vh;
-   font-family: 'Bad Script', cursive;
+  color: rgba(255, 255, 255, 0.77);
+  width: 80%;
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: 2vh;
+  padding-bottom: 2vh;
+  font-family: "Bad Script", cursive;
 }
 
-#title{
-    color: rgba(48, 120, 220, 0.861);
-    font-family: 'Genos', sans-serif;
-    padding-top: 3vh;
-    font-size: 2em;
-    text-align: center;
-    width: 80%;
-    border-bottom: 1px solid rgba(103, 165, 220, 0.77); 
+#title {
+  color: rgba(48, 120, 220, 0.861);
+  font-family: "Genos", sans-serif;
+  padding-top: 3vh;
+  font-size: 2em;
+  text-align: center;
+  width: 80%;
+  border-bottom: 1px solid rgba(103, 165, 220, 0.77);
 }
 
-.movies-container img{
-    border-radius: 10px;
+.movies-container img {
+  border-radius: 10px;
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1024px){
-   
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
 }

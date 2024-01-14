@@ -1,62 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
 
-
-.a-nav-bar{
-    text-decoration: underline;
-    font-family: 'Genos', sans-serif;
-    color: white;
-    font-size: 1.2em;
-    margin-left: 4vw;
+.a-nav-bar {
+  text-decoration: underline;
+  font-family: "Genos", sans-serif;
+  color: white;
+  font-size: 1.2em;
+  margin-left: 4vw;
 }
 
-#genre-btn{
-    text-decoration: none;
-    font-family: 'Genos', sans-serif;
-    font-size: 1.5em;
-    color: white;
+#genre-btn {
+  text-decoration: none;
+  font-family: "Genos", sans-serif;
+  font-size: 1.5em;
+  color: white;
 }
 
-.btn{
-    border: 0;
+.btn {
+  border: 0;
 }
-.nav-link{
-    color: white;
-    
+.nav-link {
+  color: white;
 }
-.nav-item{
-    font-family: 'Genos', sans-serif;
-}
-
-.offcanvas-title{
-    font-family: 'Genos', sans-serif;
+.nav-item {
+  font-family: "Genos", sans-serif;
 }
 
+.offcanvas-title {
+  font-family: "Genos", sans-serif;
+}
 
-@media only screen and (min-width: 992px)  { 
-
-.navbar{
+@media only screen and (min-width: 992px) {
+  .navbar {
     display: flex;
     justify-content: center;
     align-content: center;
-}
+  }
 
-.navbar-nav{
-    
+  .navbar-nav {
     max-width: 60vw;
     margin-left: 45vw;
-}
-.nav-link{
+  }
+  .nav-link {
     font-size: 1.1em;
-}
-#genre-btn{
-display: none;
-
-}
-.a-nav-bar{
+  }
+  #genre-btn {
+    display: none;
+  }
+  .a-nav-bar {
     margin-left: 10vw;
-  
-}
-
-
+  }
 }

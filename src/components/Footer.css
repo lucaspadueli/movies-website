@@ -1,31 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap");
 
-.footer{
-    margin-top: 5vh;
+.footer {
+  margin-top: 5vh;
+  background-color: black;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    #003651 80%,
+    rgba(0, 54, 81, 0) 100%
+  );
 }
 
-.footer-top{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 4%;
-    border-top: 1px solid #ffffff;
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 4%;
+  border-top: 1px solid #ffffff;
+}
+.footer-top ul {
+  width: 40%;
+}
+.tmdb-site {
+  list-style: none;
+  text-align: center;
+  font-family: "Genos", sans-serif;
+  color: #ffffff;
+  line-height: 5vh;
+}
+.tmdb-site li {
+  font-size: 0.8em;
+}
+.developer {
+  list-style: none;
+  text-align: center;
+  font-family: "Genos", sans-serif;
+  color: #ffffff;
+}
+.developer li {
+  font-size: 0.8em;
+  text-decoration: underline;
+}
+#footer-lucas {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-family: "Genos", sans-serif;
+  font-size: 0.8em;
+  padding-bottom: 2vh;
+}
+hr {
+  margin: 0;
+  margin-bottom: 2vh;
 }
 
-.tmdb-site{
-    list-style: none;
-    text-align: center;
-    font-family: 'Genos', sans-serif;
-    color: #ffffff;
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .developer li {
+    font-size: 1.5em;
+    text-decoration: underline;
+  }
+  .tmdb-site li {
+    font-size: 1.5em;
+  }
+  #footer-lucas {
+    font-size: 1.5em;
+  }
 }
 
-.developer{
-    list-style: none;
-    text-align: center;
-    font-family: 'Genos', sans-serif;
-    color: #ffffff;
-}
-#footer-lucas{
-    text-align: center;
-    color: #ffffff;
+@media only screen and (min-width: 1025px) {
+  .developer li {
+    font-size: 1.2em;
+    text-decoration: underline;
+  }
+  .tmdb-site li {
+    font-size: 1.2em;
+  }
+  #footer-lucas {
+    font-size: 1.2em;
+  }
 }
