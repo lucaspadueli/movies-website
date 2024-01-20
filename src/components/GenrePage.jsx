@@ -1,6 +1,7 @@
 import "./GenrePage.css";
 import { useState, useEffect } from "react";
 import NavBar from "./NavBar";
+import { Link } from "react-router-dom";
 const GenrePage = () => {
   const [genres, setGenres] = useState([]);
   useEffect(() => {
@@ -51,7 +52,7 @@ const GenrePage = () => {
             .map((genre) => {
               return (
                 <li key={genre.id}>
-                  <a href={`/movie-genres/${genre.id}`}>{genre.name}</a>
+                  <Link to={`/movie-genres/${genre.id}`}>{genre.name}</Link>
                 </li>
               );
             })

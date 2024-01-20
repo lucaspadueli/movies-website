@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import TopRatedHorror from "./TopRatedHorror";
 import NavBar from "./NavBar";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MostPopularHorror from "./MostPopularHorror";
 import "./EachGenrePage.css";
@@ -30,9 +31,9 @@ const HorrorPage = () => {
     <div className="each-genre-page">
       <NavBar />
       <button type="button" className="btn btn-primary btn-back">
-        <a id="btn-a-back" href="/movie-genres">
+        <Link id="btn-a-back" to="/movie-genres">
           Back
-        </a>
+        </Link>
       </button>
       <ul className="each-genre-list">
         <li>

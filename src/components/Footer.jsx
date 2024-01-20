@@ -1,4 +1,5 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer">
@@ -6,33 +7,33 @@ const Footer = () => {
         <ul className="tmdb-site">
           <li>
             {" "}
-            <a href="https://www.themoviedb.org/?language=pt-BR">
+            <Link to="https://www.themoviedb.org/?language=pt-BR">
               {" "}
               Oficial TMDB Web Site
-            </a>
+            </Link>
           </li>
           <li>
             {" "}
-            <a href="https://developer.themoviedb.org/docs/getting-started">
+            <Link to="https://developer.themoviedb.org/docs/getting-started">
               {" "}
               API TMDB{" "}
-            </a>
+            </Link>
           </li>
         </ul>
         <ul className="developer">
           <li> Developed by Lucas Capella:</li>
           <li>
             {" "}
-            <a href="https://www.linkedin.com/in/lucas-padueli-dev/">
+            <Link to="https://www.linkedin.com/in/lucas-padueli-dev/">
               Linkedin
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="https://github.com/lucaspadueli">Github </a>{" "}
+            <Link to="https://github.com/lucaspadueli">Github </Link>{" "}
           </li>
           <li>
             {" "}
-            <a href="https://www.behance.net/lucascapella2">Portfolio </a>
+            <Link to="https://www.behance.net/lucascapella2">Portfolio </Link>
           </li>
         </ul>
       </div>

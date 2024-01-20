@@ -8,10 +8,10 @@ const NavBar = ({ hiddeItem }) => {
       className="navbar bg-transparent border-bottom border-body navbar-expand-lg"
       data-bs-theme="dark"
     >
-      <a className="a-nav-bar" href="/">
+      <Link className="a-nav-bar" to="/">
         {" "}
         Home{" "}
-      </a>
+      </Link>
       {!hiddeItem && (
         <button className="btn btn-sm btn-outline-secondary" type="button">
           {" "}
@@ -50,14 +50,14 @@ const NavBar = ({ hiddeItem }) => {
         <div className="offcanvas-body bg-transparent">
           <ul className="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
             <li className="nav-item mx-2">
-              <a className="nav-link" href="/tv-shows">
+              <Link className="nav-link" to="/tv-shows">
                 Tv Shows
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-2">
-              <a className="nav-link" href="/movie-genres">
+              <Link className="nav-link" to="/movie-genres">
                 Movie Genres
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
